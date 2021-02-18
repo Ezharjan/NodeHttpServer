@@ -7,5 +7,5 @@ This is a simple server tool which builds a Node.js-based script that can be dir
 3. *Dev mode*: `npm install -g nodemon` then `npm run dev`;
 4. *Simple mode*: `npm run serve` or `node index.js`.
 
-<p align="center">by Alexander Ezjarhan</p>
-<p align="center">18th,Feb,2021</p>
+<p align="right">by Alexander Ezjarhan</p>
+<p align="right">18th,Feb,2021</p>
