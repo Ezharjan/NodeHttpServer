@@ -1,0 +1,23 @@
+{
+    "name": "serv",
+    "version": "1.0.0",
+    "description": "A simple server tool which builds a Node.js-based script that can be directlly used to open http-server on port 80.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js",
+        "serve": "node index.js",
+        "build": "ncc build input.js -o dist"
+    },
+    "keywords": [
+        "servez-like-http-server",
+        "ncc",
+        "server",
+        "http"
+    ],
+    "author": "Aelxadenr Ezharjan",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
